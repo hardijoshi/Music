@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    margin: -14px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+}
+nav{
+    font-family: sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.brand img{
+    height: 52px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 0.5cm;
+    padding: 0 8px;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    width: 50;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+#myProgressBar{
+    width: 80vw;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    width: 259%;
+    color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 10px;
+}
+.songitem img{
+    height: 45px;
+    margin: 0 29px;
+    justify-content: space-between;
+}
+.title{
+    font-weight: bolder;
+    
+}
+:hover a{
+    color: white;
+}
